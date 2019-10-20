@@ -1,0 +1,24 @@
+PODS:
+  - DGDatePicker (0.0.1):
+    - JTAppleCalendar (~> 7.1.5)
+  - JTAppleCalendar (7.1.8)
+
+DEPENDENCIES:
+  - DGDatePicker (from `/Users/dimitriosgeorgiou/dgrgiou/Apps/iOS/Frameworks/DGDatePicker`)
+  - JTAppleCalendar (~> 7.1.5)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JTAppleCalendar
+
+EXTERNAL SOURCES:
+  DGDatePicker:
+    :path: "/Users/dimitriosgeorgiou/dgrgiou/Apps/iOS/Frameworks/DGDatePicker"
+
+SPEC CHECKSUMS:
+  DGDatePicker: 208bf9ee4e8efb5d2f874995fcc2a41ef7f10b64
+  JTAppleCalendar: b7fb40852f5f319fe55c8ec3861f1de0edc99cc8
+
+PODFILE CHECKSUM: 942a0ee87f9cbf6650f4345cec9b4b85641c4328
+
+COCOAPODS: 1.8.3

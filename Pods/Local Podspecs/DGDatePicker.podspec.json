@@ -1,0 +1,29 @@
+{
+  "name": "DGDatePicker",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "summary": "DGDatePicker is a date picker.",
+  "requires_arc": true,
+  "version": "0.0.1",
+  "license": {
+    "type": "proprietary",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dimitris Georgiou": "dgrgiou@gmail.com"
+  },
+  "homepage": "https://dgrgiou@bitbucket.org/dgrgiou/dgdatepicker.git",
+  "source": {
+    "git": "https://dgrgiou@bitbucket.org/dgrgiou/dgdatepicker.git",
+    "tag": "0.0.1"
+  },
+  "dependencies": {
+    "JTAppleCalendar": [
+      "~> 7.1.5"
+    ]
+  },
+  "source_files": "DGDatePicker/Classes/**/*.{swift}",
+  "swift_versions": "4.2",
+  "swift_version": "4.2"
+}
