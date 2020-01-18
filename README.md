@@ -7,7 +7,8 @@
 To integrate DGDatePicker into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-# 1. Add the remote repo
+# 1. Add the remote repos
+source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/dgrgiou/DGPrivatePodSpecs.git'
 
 platform :ios, '11.0'
