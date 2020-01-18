@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '11.0'
+s.ios.deployment_target = '10.0'
 s.name = "DGDatePicker"
 s.summary = "DGDatePicker is a modal date picker."
 s.requires_arc = true
