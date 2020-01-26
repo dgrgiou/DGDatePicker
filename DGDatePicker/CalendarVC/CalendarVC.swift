@@ -31,11 +31,13 @@ public class CalendarVC: UIViewController {
     @IBOutlet weak var sundayStackViewLabel: UILabel!
     @IBOutlet weak var cancelButtonOutlet: UIButton!
     @IBOutlet weak var doneButtonOutlet: UIButton!
-    
-    // MARK: Properties
+
+    // MARK: - Public Properties
+    open var mainCalendarColor: UIColor? = UIColor.colorWithHex(rgbValue: 0x3D8984)
+
+    // MARK: Private Properties
     private let dateFormatter = DateFormatter()
     private var selectedDate = Date()
-    private let mainCalendarColor: UIColor = UIColor.colorWithHex(rgbValue: 0x3D8984)
     private let calendarStartDate: String = "01/01/1900"
     private let calendarEndDate: String = "21/12/2052"
 
