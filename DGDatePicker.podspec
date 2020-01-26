@@ -16,7 +16,7 @@ s.summary = "DGDatePicker is a modal date picker."
 s.requires_arc = true
 
 # 2
-s.version = "1.0.1"
+s.version = "1.0.2"
 
 # 3
 s.license = { :type => "proprietary", :file => "LICENSE" }
