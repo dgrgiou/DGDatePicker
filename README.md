@@ -54,6 +54,8 @@ class ViewController: UIViewController, CalendarProtocol {
         let calendarVC = CalendarVC()
         calendarVC.modalPresentationStyle = .overCurrentContext
         calendarVC.calendarDelegate = self
+        // Change main calendar color
+        calendarVC.mainCalendarColor = UIColor.green
         present(calendarVC, animated: true, completion: nil)
     }
 }
